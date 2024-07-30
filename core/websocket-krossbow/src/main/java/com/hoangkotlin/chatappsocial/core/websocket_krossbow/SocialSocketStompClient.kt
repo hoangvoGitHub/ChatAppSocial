@@ -66,6 +66,11 @@ class SocialSocketStompClient @Inject constructor(
                         Log.d(TAG, "onReconnect: ")
                         lifecycleListener.onConnecting()
                     }
+                },
+                afterReconnect = {
+                    currentUser?.let {
+                        subscribe(it.id)
+                    }
                 }
             )
         )
@@ -84,6 +89,9 @@ class SocialSocketStompClient @Inject constructor(
             Log.d(TAG, "connect: ")
             lifecycleListener.onConnecting()
             stompSession = stompClient.connect(NetworkConfig.WS_URL)
+            currentUser?.let {
+                subscribe(it.id)
+            }
         }
     }
 
@@ -116,7 +124,7 @@ class SocialSocketStompClient @Inject constructor(
 
     fun subscribe(
         destination: String,
-        onEvent: (String) -> Unit
+        onEvent: (String) -> Unit = {}
     ) {
         if (subscriptions[destination]?.isActive == true) return
         subscriptions[destination] = userScope.launch {

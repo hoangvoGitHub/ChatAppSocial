@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "com/hoangkotlin/chatappsocial/data/user_credential.proto";
+
+option java_package = "com.hoangkotlin.chatappsocial.core.datastore";
+option java_multiple_files = true;
+
+message UserPreferences {
+
+   optional UserCredential current_user = 1;
+
+
+    map<string, UserCredential> user_credentials = 2;
+
+
+    // NEXT AVAILABLE ID: 3
+}
+
+
+
+
+

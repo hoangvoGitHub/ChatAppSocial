@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chat App Social</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_choose_base_url">ChooseBaseUrlActivity</string>
+</resources>

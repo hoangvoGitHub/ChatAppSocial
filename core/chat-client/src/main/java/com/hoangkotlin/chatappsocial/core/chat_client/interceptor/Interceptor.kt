@@ -1,0 +1,3 @@
+package com.hoangkotlin.chatappsocial.core.chat_client.interceptor
+
+interface Interceptor

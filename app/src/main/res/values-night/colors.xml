@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background_tint">#000000</color>
+    <color name="ic_launcher_foreground_tint">#FFA23F16</color>
+
+    <color name="primary">#FF82D5C8</color>
+    <color name="on_primary">#FF003731</color>
+    <color name="primary_container">#FF005048</color>
+    <color name="on_primary_container">#FF9EF2E3</color>
+    <color name="secondary">#FFB1CCC6</color>
+    <color name="on_secondary">#FF1C3531</color>
+    <color name="secondary_container">#FF334B47</color>
+    <color name="on_secondary_container">#FFCCE8E2</color>
+    <color name="tertiary">#FFAEC6FF</color>
+    <color name="on_tertiary">#FF122F60</color>
+    <color name="tertiary_container">#FF2C4678</color>
+    <color name="on_tertiary_container">#FFD8E2FF</color>
+    <color name="error">#FFFFB4AB</color>
+    <color name="on_error">#FF690005</color>
+    <color name="error_container">#FF93000A</color>
+    <color name="on_error_container">#FFFFDAD6</color>
+    <color name="background">#FF0E1513</color>
+    <color name="on_background">#FFDDE4E1</color>
+    <color name="surface">#FF121318</color>
+    <color name="on_surface">#FFE2E2E9</color>
+    <color name="surface_variant">#FF3F4946</color>
+    <color name="on_surface_variant">#FFBEC9C5</color>
+    <color name="outline">#FF899390</color>
+    <color name="outline_variant">#FF3F4946</color>
+    <color name="scrim">#FF000000</color>
+    <color name="inverse_surface">#FFE2E2E9</color>
+    <color name="inverse_on_surface">#FF2F3036</color>
+    <color name="inverse_primary">#FF006B60</color>
+    <color name="surface_dim">#FF121318</color>
+    <color name="surface_bright">#FF37393E</color>
+    <color name="surface_container_lowest">#FF0C0E13</color>
+    <color name="surface_container_low">#FF1A1B20</color>
+    <color name="surface_container">#FF1E1F25</color>
+    <color name="surface_container_high">#FF282A2F</color>
+    <color name="surface_container_highest">#FF33353A</color>
+</resources>
+

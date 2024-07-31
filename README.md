@@ -1,7 +1,10 @@
 
 # Chat App Social
 ![Hook Image](https://github.com/hoangvoGitHub/ChatAppSocial/blob/main/demo/video/thumbnail.png?raw=true)
+
 Welcome to the Android Chat App! This project is a part of my portfolio, developed to enhance my skills in Android development. It features basic chat functionality and is a platform for exploring and learning new technologies.
+
+It is a work in progress 🚧.
 
 ## Features
 
@@ -18,6 +21,10 @@ Welcome to the Android Chat App! This project is a part of my portfolio, develop
 - **Websocket**: Use a third-party library for handle STOMP frame.
 - **Jetpack Compose**: Modern Android UI toolkit used for building native interfaces.
 - **MVVM Architecture**: A software architectural pattern that separates the development of the graphical user interface from the development of the business logic.
+
+## Modularization
+
+The Social Chat App has been modularized following the guidance and description from [modularization learning journey](https://github.com/android/nowinandroid/blob/main/docs/ModularizationLearningJourney.md)
 
 ## Screenshots
 
@@ -38,7 +45,9 @@ Welcome to the Android Chat App! This project is a part of my portfolio, develop
 
 ## Acknowledgements
 
+ - [Modulization and Build logic](https://github.com/android/nowinandroid)
  - [Floating-Bubble-View](https://github.com/TorryDo/Floating-Bubble-View)
  - [GetStream](https://github.com/GetStream)
  - [Krossbow STOMP client](https://github.com/joffrey-bion/krossbow/tree/main)
+ - [Server Side](https://github.com/hoangvoGitHub/ChatAppSocial-BackEnd/tree/main)
 
